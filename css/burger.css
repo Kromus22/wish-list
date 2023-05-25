@@ -52,12 +52,12 @@
 
   .burger.burger_active:before {
     top: 50%;
-    transform: rotate(45deg)
+    transform: rotate(45deg);
   }
 
   .burger.burger_active:after {
     top: 50%;
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
   }
 }
 
