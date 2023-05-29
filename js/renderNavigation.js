@@ -40,7 +40,7 @@ export const renderNavigation = () => {
             const data = await response.json();
             localStorage.setItem(JWT_TOKEN_KEY, data.token);
             auth.login = data.login;
-            router.setRouter(`user/${data.login}`);
+            router.setRoute(`user/${data.login}`);
 
 
             return true;
